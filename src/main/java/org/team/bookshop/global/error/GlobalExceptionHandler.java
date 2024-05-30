@@ -65,12 +65,12 @@ public class GlobalExceptionHandler {
     /**
      * Authentication 객체가 필요한 권한을 보유하지 않은 경우 발생합
      */
-    @ExceptionHandler(AccessDeniedException.class)
-    protected ResponseEntity<ErrorResponse> handleAccessDeniedException(AccessDeniedException e) {
-        log.error("handleAccessDeniedException", e);
-        final ErrorResponse response = ErrorResponse.of(ErrorCode.HANDLE_ACCESS_DENIED);
-        return new ResponseEntity<>(response, HttpStatus.valueOf(ErrorCode.HANDLE_ACCESS_DENIED.getStatus()));
-    }
+//    @ExceptionHandler(AccessDeniedException.class)
+//    protected ResponseEntity<ErrorResponse> handleAccessDeniedException(AccessDeniedException e) {
+//        log.error("handleAccessDeniedException", e);
+//        final ErrorResponse response = ErrorResponse.of(ErrorCode.HANDLE_ACCESS_DENIED);
+//        return new ResponseEntity<>(response, HttpStatus.valueOf(ErrorCode.HANDLE_ACCESS_DENIED.getStatus()));
+//    }
 
 
     /**
