@@ -57,8 +57,16 @@ public class SecurityConfig {
 
 	@Bean
 	@ConditionalOnProperty(name = "spring.h2.console.enabled", havingValue = "true")
-	public WebSecurityCustomizer webSecurityCustomizer() {
+	public WebSecurityCustomizer h2ConsoleCustomizer() {
 		return web -> web.ignoring()
 				.requestMatchers(PathRequest.toH2Console());
 	}
+
+	@Bean
+	@ConditionalOnProperty(name = "springdoc.swagger-ui.enabled", havingValue = "true")
+	public WebSecurityCustomizer swaggerCustomizer() {
+		return web -> web.ignoring()
+				.requestMatchers("/swagger-ui/**", "/v3/api-docs/**");
+	}
+
 }
