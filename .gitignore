@@ -1,48 +1,155 @@
-README.md
-.gradle
+# Logs
+logs/
+*.log
+*.log.*
+
+# OS generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+*.swp
+*.swo
+.fseventsd
+.AppleDouble
+.LSOverride
+Icon?
+._*
+
+# Node.js dependencies
+node_modules/
+
+# Maven
+target/
+
+# Gradle
+.gradle/
 build/
 !gradle/wrapper/gradle-wrapper.jar
-!**/src/main/**/build/
-!**/src/test/**/build/
 
-### STS ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
+# JetBrains Rider
+.idea/
+*.sln.iml
+
+# Lombok generated files
+*.lombok.config
+
+# Eclipse
+*.launch
+.settings/
 bin/
-!**/src/main/**/bin/
-!**/src/test/**/bin/
+tmp/
 
-### IntelliJ IDEA ###
-.idea
+# IntelliJ IDEA
+.idea/
 *.iws
 *.iml
 *.ipr
 out/
-!**/src/main/**/out/
-!**/src/test/**/out/
 
-src/main/resources/application-discord.properties
-src/main/resources/application-discord.yml
-src/main/resources/application-db.properties
-
-### NetBeans ###
+# NetBeans
 /nbproject/private/
 /nbbuild/
 /dist/
 /nbdist/
 /.nb-gradle/
 
-### VS Code ###
+# Visual Studio Code
 .vscode/
+*.code-workspace
 
-### mac book ###
+# Operating System Files
 .DS_Store
+*.swp
+*.swo
 
-.yml
-.xml
-.sql
+# Test Output
+test-output/
+test-results/
+coverage/
+
+# CI/CD
+.ci/
+docker-compose.override.yml
+Jenkinsfile
+
+# Temporary Files
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# Dependency directories
+/node_modules
+/.pnp
+.pnp.js
+
+# Coverage
+coverage/
+*.lcov
+
+# IDE-specific
+.vscode/
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Local environment configuration
+.env
+.env.*
+.envrc
+
+# SQL dumps
+*.sql
+
+# MacOS specific
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Python related
+__pycache__/
+*.py[cod]
+*$py.class
+
+# WebStorm related
+.idea/
+*.iml
+out/
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+
+# Python bytecode
+__pycache__/
+
+# Database
+*.db
+*.sqlite3
+
+# Other binaries
+*.pdf
+*.docx
+*.rtf
+*.md
+
+# Cloud IDE configuration files
+.cloud9/
+*.code-workspace
+.c9/
+
+# Local .env files for environment variables
+.env
+.env.*
+
+# Temporary files created by the IDE or the OS
+*.tmp
+*.bak
+*.swp
+*.swo
