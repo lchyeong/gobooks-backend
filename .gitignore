@@ -153,3 +153,7 @@ __pycache__/
 *.bak
 *.swp
 *.swo
+
+
+# Ignore all YAML files
+*.yml
