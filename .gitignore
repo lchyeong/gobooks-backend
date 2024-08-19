@@ -42,3 +42,7 @@ src/main/resources/application-db.properties
 
 ### mac book ###
 .DS_Store
+
+.yml
+.xml
+.sql
