@@ -52,7 +52,7 @@
 
 ---
 
-### 🔒 **사용자 인증 관련 기능**
+### 🔒 **사용자 인증 및 관리 기능**
 #### 로그인 기능
 <img src="https://github.com/user-attachments/assets/cfa3304d-83c2-4642-9fa2-fd8399fd58f6" alt="로그인 기능" width="400">
 
@@ -71,11 +71,19 @@
 
 #### 주문 결제 기능
 <img src="https://github.com/user-attachments/assets/d30cab18-1406-484c-8ab2-35df519ca70c" alt="주문 결제 기능" width="400">
+<img src="https://github.com/user-attachments/assets/c7f98e97-2e44-41a7-8392-636e1b767986" alt="결제 상세" width="400">
+
+#### 주소 찾기 기능
+<img src="https://github.com/user-attachments/assets/67718fe8-fca2-4eb6-a078-1f2bdf2db7be" alt="주소 찾기 기능" width="400">
 
 ---
 
-### 📂 **카테고리 기능**
+### 📂 **카테고리 관련 기능**
+#### 카테고리 기능
 <img src="https://github.com/user-attachments/assets/5b4c82bd-bc48-4603-8aca-45a9b5eb7285" alt="카테고리 기능" width="400">
+
+#### 브레드크럼
+<img src="https://github.com/user-attachments/assets/f73c65e0-f82e-4413-895d-a45ea5e41486" alt="브레드크럼" width="400">
 
 ---
 
